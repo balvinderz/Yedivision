@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+android:background="#fff"
+    android:orientation="vertical"
+    >
+ <android.support.v7.widget.Toolbar
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+     android:layout_height="?attr/actionBarSize"
+     android:background="#ffee58
+"
+     style="@style/mystyle"
+     android:elevation="10dp"
+     app:theme="@style/ThemeOverlay.AppCompat.Dark"
+     android:id="@+id/tool"
+     >
+
+ </android.support.v7.widget.Toolbar>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:textColor="#000"
+    android:elevation="10dp"
+    android:onClick="change1"
+    android:text="Assignments"
+android:id="@+id/x"
+    android:textSize="20dp"
+    style="?android:attr/borderlessButtonStyle"
+
+    android:layout_height="0dp" />
+ <View
+     android:layout_width="fill_parent"
+     android:layout_height="2dp"
+     android:background="#000"/>
+ <Button
+     android:layout_width="match_parent"
+     android:layout_weight="1"
+     android:textColor="#000"
+     android:text="Papers"
+     android:textSize="20dp"
+     android:id="@+id/y"
+
+     android:elevation="10dp"
+     android:onClick="change2"
+
+
+     style="?android:attr/borderlessButtonStyle"
+
+     android:layout_height="0dp" />
+ <View
+     android:layout_width="fill_parent"
+     android:layout_height="2dp"
+     android:background="#000"/>
+ <Button
+     android:layout_width="match_parent"
+     android:layout_weight="1"
+     android:textColor="#000"
+     android:id="@+id/z"
+
+     style="?android:attr/borderlessButtonStyle"
+     android:text="Study Material"
+     android:textSize="20dp"
+     android:onClick="change3"
+
+     android:elevation="10dp"
+     android:layout_height="0dp" />
+
+
+
+</LinearLayout>

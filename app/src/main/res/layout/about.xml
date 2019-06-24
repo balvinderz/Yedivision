@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/creator"
+        android:textSize="20sp"
+
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+
+        android:layout_height="wrap_content"
+        android:text="creator-"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/creator"
+android:padding="10sp"
+        android:textSize="20sp"
+        android:id="@+id/appname"
+        android:text="App name by-"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/appname"
+        android:layout_below="@+id/balvinder"
+        android:textSize="20sp"
+android:padding="10dp"
+        android:textStyle="italic"
+        android:id="@+id/rishi"
+        android:text="Rishi Holani"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/creator"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+android:id="@+id/balvinder"
+        android:layout_height="wrap_content"
+        android:text="Balvinder singh "/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/appname"
+    android:padding="10sp"
+    android:textSize="20sp"
+    android:id="@+id/iconname"
+    android:text="Icon by-"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iconname"
+        android:layout_below="@+id/rishi"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:text="Jatin Krishna Habibkar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/iconname"
+        android:padding="10dp"
+        android:textSize="30sp"
+
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="italic"
+
+        android:id="@+id/about"
+        android:layout_height="wrap_content"
+        android:text="about him "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+
+        android:layout_below="@+id/about"
+        android:id="@+id/me"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="wrap_content"
+        android:text="he is just a tired human being who wants everyone to die or sleep and  loves to irritate people by switching off their mobiles :v.his favourite emoji is :3 ."/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"        android:padding="10dp"
+
+
+    android:text="birthday-3 july"
+    android:textSize="25sp"
+
+    android:fontFamily="sans-serif-smallcaps"
+android:id="@+id/birthday"
+    android:layout_below="@+id/me"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+android:id="@+id/sojaa"
+        android:text="sojao aur marjao"
+        android:textSize="25dp"
+
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:layout_below="@+id/birthday"/>
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+
+        android:textStyle="italic"
+        android:background="#4CAF50
+
+"
+        android:layout_above="@id/insta"
+        android:onClick="fb"
+        android:text="        friendzone him on fb"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:textSize="30dp"
+    android:textStyle="italic"
+
+    android:layout_centerHorizontal="true"
+
+    android:onClick="insta"
+    android:layout_height="wrap_content"
+    android:id="@+id/insta"
+    android:textColor="#03A9F4
+"
+android:background="#FFFFFF
+"
+    android:layout_above="@+id/soja"
+    android:text="                instagram"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:onClick="sayat"
+        android:textStyle="italic"
+
+        android:layout_below="@+id/sojaa"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:background="#FF9800
+"    android:textSize="30dp"
+android:id="@+id/soja"
+        android:text="                     sayat"/>
+
+</RelativeLayout>
+</ScrollView>

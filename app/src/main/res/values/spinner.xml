@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subject">
+            <item>Engineering Drawing</item>
+        <item>Applied Mathematics-II</item>
+        <item>Applied Physics-II</item>
+        <item>Applied Chemistry-II</item>
+        <item>Communication Skills</item>
+        <item>Structured Programming Approach</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\apps\\Yedivision\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\ee40b5c66773988f1b1155bba658f8b1\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,6,10,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,253,438,631",
+                        "endLines": "5,9,13,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "248,433,626,1035"
+                    },
+                    "to": {
+                        "startLines": "17,21,25,29",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "989,1187,1372,1565",
+                        "endLines": "20,24,28,36",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "1182,1367,1560,1969"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\96ad2119ce255db23b6d28c50f85a4c3\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    }
+                }
+            ]
+        }
+    ]
+}
