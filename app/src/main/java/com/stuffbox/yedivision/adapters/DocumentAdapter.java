@@ -73,7 +73,7 @@ public class DocumentAdapter extends RecyclerView.Adapter<DocumentAdapter.MyView
                    mProgressDialog.setMessage("Downloading");
                    mProgressDialog.setIndeterminate(true);
                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                   mProgressDialog.setCancelable(true);
+                   mProgressDialog.setCancelable(false );
                     name = documents.get(holder.getAdapterPosition()).getName();
 
                    final DocumentDownloadTask downloadTask = new DocumentDownloadTask(context,type);

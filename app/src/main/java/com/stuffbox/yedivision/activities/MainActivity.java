@@ -61,7 +61,7 @@ toolbar=findViewById(R.id.tool);
             if ((ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED )|| ContextCompat.checkSelfPermission(this,Manifest.permission.READ_EXTERNAL_STORAGE )!=PackageManager.PERMISSION_GRANTED )  {
                 ActivityCompat.requestPermissions(MainActivity.this,
-                        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                        new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE},
                         1);            // Permission is not granted
         }
 
@@ -287,7 +287,7 @@ cd=0;
     public void change3(View v)
     {
 
-       change4("study materials");
+       change4("studymaterials");
 
     }
 

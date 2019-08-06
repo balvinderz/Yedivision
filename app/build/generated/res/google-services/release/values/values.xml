@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">291241787177-7kcaqi4lt15hqq5il460dtn78oacieug.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://assignments-c2657.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">291241787177</string>
+    <string name="google_api_key" translatable="false">AIzaSyDd6l1X22LRG_DNGNa2DuHJgZiVb2ufnLY</string>
+    <string name="google_app_id" translatable="false">1:291241787177:android:3f770d3881caec65</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDd6l1X22LRG_DNGNa2DuHJgZiVb2ufnLY</string>
+    <string name="google_storage_bucket" translatable="false">assignments-c2657.appspot.com</string>
+    <string name="project_id" translatable="false">assignments-c2657</string>
+</resources>

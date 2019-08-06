@@ -1,0 +1,4 @@
+#Tue Aug 06 21:35:17 IST 2019
+base.0=E\:\\apps\\Yedivision\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

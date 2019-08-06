@@ -62,10 +62,12 @@ public class DocumentDownloadTask extends AsyncTask<String, Integer, String> {
             input = connection.getInputStream();
             //  String filename= UUID.randomUUID().toString();
             String filename= DocumentAdapter.name;
-            File direct=new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/yedivision");
-            direct.mkdir();
-            File directory = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/yedivision/"+type);
-            directory.mkdir();
+            final File externalStoragePublicDirectory = Environment.getExternalStorageDirectory();
+
+            File direct=new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/yedivision/");
+            direct.mkdirs();
+            File directory = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/yedivision/"+type+"/");
+            directory.mkdirs();
             output = new FileOutputStream(Environment.getExternalStorageDirectory().getPath()+"/yedivision/"+type+"/"+filename+".pdf");
             file=new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/yedivision/"+type+"/"+filename+".pdf");
             Log.i("soja", Uri.fromFile(file).toString());
@@ -140,8 +142,7 @@ public class DocumentDownloadTask extends AsyncTask<String, Integer, String> {
 
             Toast.makeText(context,"Download error: "+result, Toast.LENGTH_LONG).show();
         else{
-            if(fileLength!=file.length())
-                file.delete();
+
 
             if(flag==2){
                 Toast.makeText(context,"File downloaded", Toast.LENGTH_SHORT).show();

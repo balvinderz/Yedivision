@@ -23,13 +23,18 @@ import java.util.ArrayList;
 public class SubjectSelector extends AppCompatActivity {
     ArrayList<Subject> subjectList= new ArrayList<>();
     SubjectAdapter subjectAdapter;
+    String type;
+    String toshow;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.subjectsnew);
-        final String type = getIntent().getStringExtra("type");
+        type = getIntent().getStringExtra("type");
+        toshow = type;
+        if(toshow.equals("studymaterial"))
+            toshow= "Study Material";
         TextView TypeofContent = findViewById(R.id.xz);
-        TypeofContent.setText(type);
+        TypeofContent.setText(toshow.substring(0,1).toUpperCase()+toshow.substring(1));
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("subjects");
         final RecyclerView recyclerView = findViewById(R.id.recycler_view_for_subjects);
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {

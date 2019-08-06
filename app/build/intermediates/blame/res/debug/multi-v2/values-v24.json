@@ -4,7 +4,7 @@
             "outputFile": "E:\\apps\\Yedivision\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\db4de3edef7061cc30055974c4573dc4\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\a48855f4a273683aa445e1b7f6930001\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\96ad2119ce255db23b6d28c50f85a4c3\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\3eb6b39dcda073d1d09689be91894865\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

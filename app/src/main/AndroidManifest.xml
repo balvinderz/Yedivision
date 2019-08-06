@@ -3,8 +3,8 @@
     package="com.stuffbox.yedivision">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -36,28 +36,33 @@
             android:resource="@color/fui_bgGoogle" />
         <activity
             android:name="com.stuffbox.yedivision.activities.MainActivity"
-            android:label="Yedivision">
+            android:configChanges="orientation|screenSize"
+            android:label="Yedivision"/>
 
 
-        </activity>
 
-            android:parentActivityName=".activities.MainActivity"/>
-
-        <activity android:name=".activities.SubjectSelector"/>
+        <activity android:name=".activities.SubjectSelector"
+            android:configChanges="orientation|screenSize"/>
 
         <activity android:name=".activities.DocumentLister"
+            android:configChanges="orientation|screenSize"
             android:label=""/>
 
-        <activity android:name="com.stuffbox.yedivision.activities.about"/>
+        <activity android:name="com.stuffbox.yedivision.activities.about"
+            android:configChanges="orientation|screenSize"/>
 
 
 
         <activity android:name=".activities.DocumentAdder"
+            android:configChanges="orientation|screenSize"
             android:label=""/>
 
-        <activity android:name=".activities.signin"/>
-        <activity android:name=".activities.createid"/>
+        <activity android:name=".activities.signin"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".activities.createid"
+            android:configChanges="orientation|screenSize"/>
         <activity android:name=".activities.SplashScreen"
+            android:configChanges="orientation|screenSize"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,6 +72,8 @@
 
         </activity>
         <activity android:name=".activities.Timetable"
+            android:configChanges="orientation|screenSize"
+
             android:label=""
             ></activity>
     </application>

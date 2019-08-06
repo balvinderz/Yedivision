@@ -18,7 +18,7 @@
             android:id="@+id/xz"
             android:layout_margin="10dp"
             android:layout_marginLeft="15dp"
-            android:textSize="50sp"
+            android:textSize="35sp"
 
             android:textColor="#ff8d00"/>
         <View

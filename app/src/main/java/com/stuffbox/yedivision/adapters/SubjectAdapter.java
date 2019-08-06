@@ -55,6 +55,7 @@ public class SubjectAdapter extends RecyclerView.Adapter<SubjectAdapter.MyViewHo
                 Intent intent = new Intent(context, DocumentLister.class);
                 intent.putExtra("subject",subjectList.get(holder.getAdapterPosition()));
                 intent.putExtra("type",type);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
         });
