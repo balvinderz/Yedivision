@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\apps\\Yedivision\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/balvinder/Documents/androidapps/Yedivision/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\3eb6b39dcda073d1d09689be91894865\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/balvinder/.gradle/caches/transforms-2/files-2.1/e0d8103c4cfb58b94681fe10a49cda40/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

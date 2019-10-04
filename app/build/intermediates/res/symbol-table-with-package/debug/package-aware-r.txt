@@ -1426,6 +1426,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id trouble_signing_in
 id twitter_button
+id type
+id typespinner
 id uniform
 id unlabeled
 id up
@@ -1512,6 +1514,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout documentlist
+layout externaluploader
 layout fui_activity_register_email
 layout fui_activity_register_phone
 layout fui_auth_method_picker_layout
