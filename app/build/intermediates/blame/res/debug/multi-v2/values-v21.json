@@ -1,48 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/balvinder/Documents/androidapps/Yedivision/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "E:\\apps\\Yedivision\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/balvinder/.gradle/caches/transforms-2/files-2.1/04d08f45f8c7aa428b8c1f562d0f899f/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,10,18,26",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,484,910,1333",
-                        "endLines": "9,17,25,33",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "479,905,1328,1763"
-                    },
-                    "to": {
-                        "startLines": "279,287,295,303",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "20424,20853,21279,21702",
-                        "endLines": "286,294,302,310",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "20848,21274,21697,22132"
-                    }
-                },
-                {
-                    "source": "/Users/balvinder/.gradle/caches/transforms-2/files-2.1/beddef4bab4a146a0dca928f54e7bbf3/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,263,264,271,275,311,314",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19262,19378,19835,20129,22137,22309",
-                        "endLines": "2,3,4,5,263,264,271,275,313,318",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19373,19499,19956,20252,22304,22642"
-                    }
-                },
-                {
-                    "source": "/Users/balvinder/.gradle/caches/transforms-2/files-2.1/e0d8103c4cfb58b94681fe10a49cda40/res/values-v21/values-v21.xml",
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\3eb6b39dcda073d1d09689be91894865\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -61,7 +23,45 @@
                     }
                 },
                 {
-                    "source": "/Users/balvinder/.gradle/caches/transforms-2/files-2.1/9c1c1ef1c010876bc382477872400e05/res/values-v21/values-v21.xml",
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\a1072696902d8b0a5c3a134e5ba37f01\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,263,264,271,275,311,314",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,19262,19378,19835,20129,22137,22309",
+                        "endLines": "2,3,4,5,263,264,271,275,313,318",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,19373,19499,19956,20252,22304,22642"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\9a7db27842c854893fcce2dbe185fdfb\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,10,18,26",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,484,910,1333",
+                        "endLines": "9,17,25,33",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "479,905,1328,1763"
+                    },
+                    "to": {
+                        "startLines": "279,287,295,303",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "20424,20853,21279,21702",
+                        "endLines": "286,294,302,310",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "20848,21274,21697,22132"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\a48855f4a273683aa445e1b7f6930001\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

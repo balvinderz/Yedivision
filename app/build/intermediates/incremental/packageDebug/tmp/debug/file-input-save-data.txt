@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Fri Oct 04 18:10:35 IST 2019
-1.base=/Users/balvinder/Documents/androidapps/Yedivision/app/build/intermediates/dex/debug/mergeDexDebug/out
+#Fri Oct 04 19:09:24 IST 2019
+1.base=E\:\\apps\\Yedivision\\app\\build\\intermediates\\merged_assets\\debug\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
-1.set=DEX
-0.path=crashlytics-build.properties
-0.set=ASSET
-0.base=/Users/balvinder/Documents/androidapps/Yedivision/app/build/intermediates/merged_assets/debug/out
-1.path=classes.dex
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=E\:\\apps\\Yedivision\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+1.path=crashlytics-build.properties

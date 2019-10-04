@@ -98,6 +98,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data android:mimeType="application/pdf" />
+                <data android:host="*" />
+               />
             </intent-filter>
         </activity>
 

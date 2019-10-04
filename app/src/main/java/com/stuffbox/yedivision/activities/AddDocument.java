@@ -33,21 +33,23 @@ import com.stuffbox.yedivision.R;
 import com.stuffbox.yedivision.models.Document;
 import com.stuffbox.yedivision.models.Subject;
 
+import java.io.File;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.UUID;
 
 public class AddDocument extends AppCompatActivity implements AdapterView.OnItemSelectedListener  {
     int subjectcode=1;
-    String thisistype;
+    String thisistype="";
     private FirebaseStorage storage;
     private FirebaseDatabase firebaseDatabase;
     ArrayList<String> subjectname = new ArrayList<>();
-    private DatabaseReference databaseReference;
+    private DatabaseReference databaseReference,secondReference;
     private EditText editText,editText1,editText2;
     Spinner subjectSpinner,typeSpinner;
     ArrayList<String> types;
     Button b;
+
     Uri uri;
     StorageReference storageReference;
     @Override
@@ -57,28 +59,43 @@ public class AddDocument extends AppCompatActivity implements AdapterView.OnItem
         subjectSpinner  = findViewById(R.id.spinner);
         typeSpinner = findViewById(R.id.typespinner);
         editText1=findViewById(R.id.nameofassignment);
-        databaseReference= FirebaseDatabase.getInstance().getReference("subjects");
         b=findViewById(R.id.save);
         Intent intent = getIntent();
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
         String action = intent.getAction();
         String type= intent.getType();
+        databaseReference= FirebaseDatabase.getInstance().getReference("subjects");
+        secondReference= FirebaseDatabase.getInstance().getReference();
+
         if(Intent.ACTION_SEND.equals(action) && type!= null)
         {
             if("application/pdf".equals(type))
             {
-                Uri fileURI = intent.getData();
+               // Uri data= intent.getData();
+                Bundle bundle = intent.getExtras();
+                Uri fileuri = (Uri)bundle.get(Intent.EXTRA_STREAM);
+
+               // if(data!=null)
+              //  Log.i("datais",data.toString());
+              //  else
+               //     Log.i("datais","null");
                 final ProgressDialog progressDialog = new ProgressDialog(this);
                 progressDialog.show();
                 StorageReference ref = storageReference.child( UUID.randomUUID().toString());
-                ref.putFile(fileURI).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                String path="";
+              //  if(fileURI!=null)
+                //    path = fileURI.getPath();
+               //Log.i("pathis","soja"+fileURI.toString());
+               // fileURI = Uri.parse(path);
+                ref.putFile(fileuri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         progressDialog.dismiss();
                         Toast.makeText(AddDocument.this,"UPLOADED", Toast.LENGTH_SHORT).show();
 
                         uri=taskSnapshot.getDownloadUrl();
+                        Log.i("afteruploading",uri.toString());
                     }
                 })
                         .addOnFailureListener(new OnFailureListener() {
@@ -175,8 +192,9 @@ public class AddDocument extends AppCompatActivity implements AdapterView.OnItem
                             else
                                 changedtype = "papers";
                             String ref= changedtype+"ofsem"+"5";
-                            databaseReference.child(ref).push().setValue(data);
+                            secondReference.child(ref).push().setValue(data);
                             editText1.setText("");
+                            finish();
                         }
 
                     }

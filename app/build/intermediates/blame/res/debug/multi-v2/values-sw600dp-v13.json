@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/balvinder/Documents/androidapps/Yedivision/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "E:\\apps\\Yedivision\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/balvinder/.gradle/caches/transforms-2/files-2.1/e0d8103c4cfb58b94681fe10a49cda40/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\3eb6b39dcda073d1d09689be91894865\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/balvinder/.gradle/caches/transforms-2/files-2.1/04d08f45f8c7aa428b8c1f562d0f899f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\balvi\\.gradle\\caches\\transforms-2\\files-2.1\\9a7db27842c854893fcce2dbe185fdfb\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
